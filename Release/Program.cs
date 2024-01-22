@@ -1,24 +1,27 @@
 ﻿
 
 string[] words = {"Hey", "NewYear", "Best", "Battery", "Car", "System", "HardRock"};
+string[] wordsforfhree = new string[words.Length];
 
 
-void  FindLenght(string[] massiv )
+
+void  FindLenght(string[] massiv_1, string[] massiv_2)
 
 {
-    int lenght = massiv.Length;
-
-    for(int i = 0; i < lenght; i++)
+    int count = 0;
+    for(int i = 0; i < words.Length; i++)
     {
-        if(massiv[i].Length > 3)
-            {
-            System.Console.WriteLine(massiv[i]);
-            }
-
+        if(words[i].Length <= 3)
+        {
+            wordsforfhree[count] = words[i];
+            count++;
+        }
     }
+    
 }
-FindLenght(words);
+FindLenght(words, wordsforfhree);
 
-// int lenght = words.Length;
+Console.WriteLine(string.Join(" ", wordsforfhree));
+
 
 
