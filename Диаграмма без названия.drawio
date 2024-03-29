@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2024-03-29T11:56:01.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hjlUTVoyMho6Y4qSZv4g" version="24.2.1" type="device">
+  <diagram name="Страница — 1" id="lrNNOEcImduz3yVrZ3zy">
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-1" target="xqbLY3bPcbajXYzkYwSI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-1" value="BEGIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-3" value="&lt;div&gt;string[] words = {&quot;Hey&quot;, &quot;NewYear&quot;, &quot;Best&quot;, &quot;Battery&quot;, &quot;Car&quot;, &quot;System&quot;, &quot;HardRock&quot;};&lt;/div&gt;&lt;div&gt;string[] wordsforfhree = new string[words.Length];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-6" target="xqbLY3bPcbajXYzkYwSI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-6" value="void&amp;nbsp; FindLenght(string[] massiv_1, string[] massiv_2)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="895" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="121" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-8" value="&lt;div&gt;&lt;div&gt;int count = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for(int i = 0; i &amp;lt; words.Length; i++)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;(words[i].Length &amp;lt;= 3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-13" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-15" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-16" target="xqbLY3bPcbajXYzkYwSI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="740" />
+              <mxPoint x="395" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-16" value="&lt;div&gt;wordsforfhree[count] = words[i];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; count++;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xqbLY3bPcbajXYzkYwSI-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1010" as="targetPoint" />
+            <mxPoint x="414" y="930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-24" value="Console.WriteLine(string.Join(&quot; &quot;, wordsforfhree));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xqbLY3bPcbajXYzkYwSI-25" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
